@@ -15,6 +15,7 @@ public class particleBulletScript : MonoBehaviour {
 
 		if (Input.GetKey(KeyCode.A)) 
 		{
+			//_Added this to test Github update.
 			//Emit particles from the emitter.
 			GetComponent<ParticleSystem>().Emit(1);
 		}
